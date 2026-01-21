@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+
+    <link rel="stylesheet" href="./style/style.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div id="page-loader">Loading...</div>
+    <header>
+      <nav>
+        <h1>ART Gallery</h1>
+        <span id="menu-btn">☰</span>
+        <ul id="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#mainsec">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="welcome_sec">
+      <h1>Welcome to ART Gallery</h1>
+      <p>
+        A curated collection of artistic styles and paintings from around the
+        world.
+      </p>
+    </section>
+
+    <section>
+      <div class="owl-carousel">
+        <figure>
+          <img loading="lazy" src="./img/img1.jpg" alt="Art 1" />
+        </figure>
+        <figure>
+          <img loading="lazy" src="./img/img2.jpg" alt="Art 2" />
+        </figure>
+        <figure>
+          <img loading="lazy" src="./img/img3.jpg" alt="Art 3" />
+        </figure>
+        <figure>
+          <img loading="lazy" src="./img/img4.jpg" alt="Art 4" />
+        </figure>
+        <figure>
+          <img loading="lazy" src="./img/img5.jpg" alt="Art 5" />
+        </figure>
+        <figure>
+          <img loading="lazy" src="./img/img6.jpg" alt="Art 6" />
+        </figure>
+      </div>
+    </section>
+
+    <section id="art_card">
+      <h2>Search types of painting art worldwide</h2>
+
+      <!-- Bootstrap Cards -->
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-3 col-sm-6">
+            <div class="card">
+              <div class="card-body">Abstract Art</div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card">
+              <div class="card-body">Modern Art</div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card">
+              <div class="card-body">Classic Art</div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card">
+              <div class="card-body">Digital Art</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main id="mainsec">
+      <h1>About Us</h1>
+      <p>
+        Welcome to ART Gallery, a platform dedicated to celebrating creativity
+        and artistic expression from around the world. We showcase a diverse
+        collection of artworks ranging from classical paintings to modern and
+        digital art.
+      </p>
+
+      <p>
+        Our goal is to connect artists with art lovers by providing a space
+        where creativity is discovered, appreciated, and shared. Each artwork
+        tells a story, reflects culture, and captures emotions that inspire
+        imagination.
+      </p>
+
+      <p>
+        At ART Gallery, we believe art has the power to inspire, communicate
+        ideas, and bring people together. Whether you are an artist, a
+        collector, or an admirer, our gallery invites you to explore and
+        experience art in its many beautiful forms.
+      </p>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <p>© 2026 Art Gallery. All rights reserved.</p>
+
+        <div class="social-icons">
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            class="instagram"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://wa.me/" target="_blank" class="whatsapp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a href="https://www.facebook.com/" target="_blank" class="facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script src="./script/script.js"></script>
+  </body>
+</html>
